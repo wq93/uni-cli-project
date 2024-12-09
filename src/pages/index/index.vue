@@ -84,9 +84,9 @@ const handleScan = (e) => {
 // 跳转到场馆详情
 const handleNavTap = () => {
   console.log('跳转到场馆详情');
-  // uni.navigateTo({
-  //   url: `/pages/ground/ground?id=${ currentMarker.value.id }`
-  // });
+  uni.navigateTo({
+    url: `/pages/ground/ground?id=${ currentMarker.value.id }`
+  });
 };
 
 const actionList = [
