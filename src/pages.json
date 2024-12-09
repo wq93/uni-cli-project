@@ -48,6 +48,20 @@
         "navigationBarTitleText": "登录",
         "enablePullDownRefresh": false
       }
+    },
+    {
+      "path": "pages/wallet/wallet",
+      "style": {
+        "navigationBarTitleText": "我的钱包",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/recharge/recharge",
+      "style": {
+        "navigationBarTitleText": "立即充值",
+        "enablePullDownRefresh": false
+      }
     }
   ],
   "globalStyle": {
