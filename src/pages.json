@@ -20,6 +20,13 @@
         "navigationBarTitleText": "联系我们",
         "enablePullDownRefresh": false
       }
+    },
+    {
+      "path": "pages/question/question",
+      "style": {
+        "navigationBarTitleText": "问题详情",
+        "enablePullDownRefresh": false
+      }
     }
   ],
   "globalStyle": {
