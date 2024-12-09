@@ -90,6 +90,7 @@ onLoad((options) => {
   }
 })
 const handleTap = () => {
+  console.log(groundInfo.value, 'groundInfo');
   uni.openLocation({
     longitude: groundInfo.value.marker.longitude,
     latitude: groundInfo.value.marker.latitude,
