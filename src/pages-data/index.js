@@ -2,8 +2,8 @@
 export const markers = [
   {
     id: 1,
-    latitude: 31.18466,
-    longitude: 121.30549,
+    latitude: 22.96,
+    longitude: 113.36,
     title: '虹桥足球场',
     iconPath: '/static/icon.png',
     width: 40,
@@ -12,8 +12,8 @@ export const markers = [
   },
   {
     id: 2,
-    latitude: 31.09416,
-    longitude: 121.19604,
+    latitude: 22.91,
+    longitude: 113.31,
     title: '佘山足球场',
     iconPath: '/static/icon.png',
     width: 40,

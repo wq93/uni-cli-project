@@ -60,7 +60,10 @@
         "desc": "为了提供位置服务"
       }
     },
-    "requiredPrivateInfos": ["getLocation"]
+    "requiredPrivateInfos": [
+      "getLocation",
+      "chooseLocation"
+    ]
   },
   "mp-alipay": {
     "usingComponents": true
