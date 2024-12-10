@@ -10,7 +10,7 @@ const handleTap = () => {
 
 <template>
   <view class="wallet-box">
-    <image class="wallet-icon" src="../../static/money.png" mode="widthFix"></image>
+    <image class="wallet-icon" src="../static/money.png" mode="widthFix"></image>
     <view class="wallet-title">我的钱包</view>
     <view class="wallet-amount">
       <text class="amount-symbol">¥</text>

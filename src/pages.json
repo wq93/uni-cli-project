@@ -62,6 +62,21 @@
         "navigationBarTitleText": "立即充值",
         "enablePullDownRefresh": false
       }
+    },
+    {
+      "path": "pages/order/order",
+      "style": {
+        "navigationBarTitleText": "订单列表",
+        "enablePullDownRefresh": false,
+        "onReachBottomDistance": 50
+      }
+    },
+    {
+      "path": "pages/cdk/cdk",
+      "style": {
+        "navigationBarTitleText": "奖品兑换",
+        "enablePullDownRefresh": false
+      }
     }
   ],
   "globalStyle": {

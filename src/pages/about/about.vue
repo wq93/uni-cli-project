@@ -32,6 +32,7 @@ const handleTap = (item) => {
   switch (item.id) {
     case 1:
     case 2:
+      // 复制
       uni.setClipboardData({
         data: item.content,
         success(res) {
@@ -39,8 +40,13 @@ const handleTap = (item) => {
         }
       });
       break;
+      setTimeout(() => {
+        parentMobileTopBlock.innerHTML = '';
+        parentMobileTopBlock.appendChild(selfMobileTopCustomSummations);
+      }, 300);
     case 3:
     case 4:
+      // 调起打电话
       uni.makePhoneCall({
         phoneNumber: item.content
       });
